@@ -1,6 +1,13 @@
 import os
 import subprocess
-import requests
+
+# Try to import requests, install it if not found
+try:
+    import requests
+except ImportError:
+    print("Installing 'requests' module...")
+    os.system("pip install requests")
+    import requests
 
 def setup_virtualenv():
     os.system("python -m venv venv")
