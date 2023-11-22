@@ -16,21 +16,27 @@ This Python script automates the deployment of a Flask web application using Jen
   Usage
 
 Install the required packages:
+
   pip install -r requirements.txt
 
 Replace the placeholders in the deploy_app.py script with your Jenkins server URL and job name.
 
 Set up a virtual environment (optional but recommended):
+
   python -m venv venv
+  
   . venv/bin/activate
   
 Install dependencies:
+
   pip install -r requirements.txt
 
 Run tests:
+
   pytest tests
 
 If tests pass, deploy the application:
+
   python deploy_app.py
 
   Notes:
