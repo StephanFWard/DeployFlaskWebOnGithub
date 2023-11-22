@@ -1,4 +1,4 @@
-This README provides step-by-step instructions on how to set up and use the auto-deployment script. It covers prerequisites, installation steps, configuration, and additional notes for customization. Users can follow these instructions to deploy their Flask web application using Jenkins.
+This README provides step-by-step instructions on how to set up and use the auto-deployment script if Flask web application is hosted on GitHub. It covers prerequisites, installation steps, configuration, and additional notes for customization. Users can follow these instructions to deploy their Flask web application using Jenkins.
 
 # Auto Deployment Script
 
