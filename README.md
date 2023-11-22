@@ -8,12 +8,12 @@ This Python script automates the deployment of a Flask web application using Jen
 
 - Python 3.x
 - `virtualenv` package (optional but recommended)
-- `requests` library. Install it using:
+- `requests` library. 
 
-  ```bash
-  pip install -r requirements.txt
+Clone the web application repository:
 
-  Usage
+git clone https://github.com/StephanFWard/DeployFlaskWebOnGithub.git
+cd DeployFlaskWebOnGithub
 
 Install the required packages:
 
@@ -39,7 +39,8 @@ If tests pass, deploy the application:
 
   python deploy_app.py
 
-  Notes:
+Notes:
+
 Make sure your Jenkins server is accessible from the machine where you run this script.
 Ensure that Jenkins job is properly configured for auto deployment.
 You can customize the test command and deployment process based on your application's needs.
